@@ -1,0 +1,3 @@
+1) No setup se passa uma lista de indices e os campos desejados {indexName, url, cardFields, filterFields}
+2) Consulta aos metadados do indice: Os campos sao normalizados como uma lista de {key, value}
+3) A busca é feita pesquisando _source[value]. Retorna um obj campo key preenchido com o resultado da busca
