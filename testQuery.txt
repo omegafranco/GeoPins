@@ -1,0 +1,19 @@
+# Write your query or mutation here
+{
+  me {
+    _id
+    name
+    email
+    picture
+  }
+  search {	
+    um_teste_e_assim
+    e_cassacao
+    aeoi
+  }
+  cardFields {
+    key
+    value
+  }
+}
+
